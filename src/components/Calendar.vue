@@ -3,7 +3,7 @@
     <div class="container">
       <div class="calendar-title" v-if="years === 0">
         <h3>
-          ENTER YOUR DATA —>
+          enter your data —>
         </h3>
       </div>
       <div class="calendar-content" v-if="years > 0">
@@ -14,7 +14,7 @@
         </div>
         <div class="calendar-side">
           <h5>
-            Your Age in Year —>
+            Your Age in Years —>
           </h5>
         </div>
         <div class="calendar-table">
@@ -110,7 +110,7 @@ export default {
   .calendar-side {
     margin: -70px;
     padding: 0;
-    margin-top: 90px;
+    margin-top: 95px;
     float: left;
     transform: rotate(90deg);
   }
