@@ -16,6 +16,7 @@
         :weeks = weeks
         :years = years
         :age = age
+        :deathYear = deathYear
       />
     </div>
   </div>
@@ -39,7 +40,8 @@ export default {
         new: 0
       },
       years: 0,
-      age: 0
+      age: 0,
+      deathYear: 0
     }
   },
   methods: {
@@ -51,6 +53,7 @@ export default {
       this.weeks.end = Math.ceil(Math.abs(now.getTime() - birth.getTime()) / (1000 * 3600 * 24) / 7);
       this.weeks.new = this.weeks.all - this.weeks.end
       this.age = Math.floor(this.weeks.end / 52)
+      this.deathYear = birth.getFullYear() + parseInt(death)
     }
   }
 }

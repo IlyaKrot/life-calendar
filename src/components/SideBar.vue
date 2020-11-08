@@ -18,6 +18,7 @@
         <p>Weeks left: {{weeks.new}}</p>
         <p>Сurrent age: {{age}}</p>
         <p>Left to live: {{years - age}}</p>
+        <p>Year of death: {{deathYear}}</p>
       </div>
     </div>
   </div>
@@ -29,7 +30,8 @@ export default {
   props: {
     weeks: Object,
     years: Number,
-    age: Number
+    age: Number,
+    deathYear: Number
   },
   data() {
     return {
