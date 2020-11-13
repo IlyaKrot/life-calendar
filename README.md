@@ -1,5 +1,9 @@
 # life
 
+Life Calendar 
+
+![Alt text](/screen/Life.jpg?raw=true "Life Calendar")
+
 ## Project setup
 ```
 npm install
