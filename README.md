@@ -2,6 +2,8 @@
 
 ![Alt text](/screen/Life.jpg?raw=true "Life Calendar")
 
+https://ilyakrot.github.io/life-calendar/
+
 ## Project setup
 ```
 npm install
